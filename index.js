@@ -9,14 +9,48 @@ const questions = [
     {
         type: 'input',
         name: 'title',
-        message: 'Title'
+        message: 'Title of project'
+    },
+    {
+        type: 'input',
+        name: 'description',
+        message: 'Description'
+    },
+    {
+        type: 'input',
+        name: 'table',
+        message: 'Table of Contents'
     },
     {
         type: 'input',
         name: 'installation',
         message: 'Installation'
+    },
+    {
+        type: 'input',
+        name: 'usage',
+        message: 'Usage'
+    },
+    {
+        type: 'input',
+        name: 'license',
+        message: 'Lisence'
+    },
+    {
+        type: 'input',
+        name: 'contributing',
+        message: 'Contributing'
+    },
+    {
+        type: 'input',
+        name: 'tests',
+        message: 'Tests'
+    },
+    {
+        type: 'input',
+        name: 'questions',
+        message: 'Questions'
     }
-    //etc
 ];
 
 
