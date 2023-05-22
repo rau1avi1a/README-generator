@@ -104,7 +104,7 @@ function init() {
         }
 
         const markdownText = generateMarkdown(answers);
-        fs.writeFile('README.md', markdownText, (err) =>
+        fs.writeFile('README-sample.md', markdownText, (err) =>
       err ? console.log(err) : console.log('Successfully created README file!')
     );
     });
